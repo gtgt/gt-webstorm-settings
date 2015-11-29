@@ -1,0 +1,30 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="Built-in Web Server" displayType="STICKY_BALLOON" />
+    <notification groupId="Common Version Control Messages" displayType="TOOL_WINDOW" />
+    <notification groupId="Database" displayType="TOOL_WINDOW" />
+    <notification groupId="Database log" displayType="NONE" />
+    <notification groupId="Database Navigator" displayType="TOOL_WINDOW" />
+    <notification groupId="Database view" displayType="TOOL_WINDOW" />
+    <notification groupId="Debugger messages" displayType="TOOL_WINDOW" />
+    <notification groupId="Execution" displayType="NONE" />
+    <notification groupId="External Executable Critical Failures" displayType="TOOL_WINDOW" />
+    <notification groupId="File Watcher Messages" displayType="NONE" />
+    <notification groupId="Git Important Messages" displayType="STICKY_BALLOON" />
+    <notification groupId="Git Messages" displayType="TOOL_WINDOW" />
+    <notification groupId="IDE Fatal Errors" />
+    <notification groupId="IDE Usage Statistics" shouldLog="false" />
+    <notification groupId="JavaScript debugger" displayType="TOOL_WINDOW" />
+    <notification groupId="JavaScript Library Management" displayType="STICKY_BALLOON" />
+    <notification groupId="LESS Compiler Error Messages" displayType="STICKY_BALLOON" />
+    <notification groupId="LESS Compiler Notices" displayType="NONE" />
+    <notification groupId="LESS Compiler Successful Compiles" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="Node.js Boilerplate Project Generator" displayType="STICKY_BALLOON" />
+    <notification groupId="PHP Debugger" displayType="TOOL_WINDOW" />
+    <notification groupId="PHPUnit" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="System" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="Task Browser" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="Vcs Important Messages" displayType="STICKY_BALLOON" />
+    <notification groupId="Web Deployment" displayType="NONE" />
+  </component>
+</application>
