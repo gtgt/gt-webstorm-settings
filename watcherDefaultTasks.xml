@@ -6,9 +6,9 @@
       <option name="description" value="Compiles .less files into .css files" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="less" />
-      <option name="immediateSync" value="true" />
+      <option name="immediateSync" value="false" />
       <option name="name" value="LESS" />
-      <option name="output" value="css" />
+      <option name="output" value="css/style.css" />
       <option name="outputFilters">
         <array>
           <FilterInfo>
@@ -34,7 +34,67 @@
       <option name="fileExtension" value="less" />
       <option name="immediateSync" value="false" />
       <option name="name" value="style.less" />
-      <option name="output" value="" />
+      <option name="output" value="$FileParentDir$/css/style.css" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="program" value="/opt/bin/lessc" />
+      <option name="scopeName" value="style.less" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$FileParentDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--no-color  less/bootstrap.less css/bootstrap.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .less files into .css files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="less" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="bootstrap.less" />
+      <option name="output" value="$FileDir$/css/boostrap.css" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="program" value="$USER_HOME$/bin/lessc" />
+      <option name="scopeName" value="bootstrap.less" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$FileParentDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--no-color  less/ie.less css/ie.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .less files into .css files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="less" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="ie.less" />
+      <option name="output" value="$FileDir$/css/ie.css" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="program" value="$USER_HOME$/bin/lessc" />
+      <option name="scopeName" value="ie.less" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$FileParentDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--no-color less/bootstrap.less css/bootstrap.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .less files into .css files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="less" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="LESS (bootstrap)" />
+      <option name="output" value="css/bootstrap.css" />
       <option name="outputFilters">
         <array>
           <FilterInfo>
@@ -46,72 +106,10 @@
       </option>
       <option name="outputFromStdout" value="false" />
       <option name="passParentEnvs" value="true" />
-      <option name="program" value="/opt/bin/lessc" />
-      <option name="scopeName" value="style.less" />
+      <option name="program" value="$USER_HOME$/bin/lessc" />
+      <option name="scopeName" value="Bootstrap less" />
       <option name="trackOnlyRoot" value="false" />
       <option name="workingDir" value="$FileParentDir$" />
-      <envs>
-        <env name="LESS_FILE" value="$FilePath$" />
-      </envs>
-    </TaskOptions>
-    <TaskOptions isEnabled="false">
-      <option name="arguments" value="sass" />
-      <option name="checkSyntaxErrors" value="true" />
-      <option name="description" value="Compiles .scss files into .css files" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="scss" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="SCSS" />
-      <option name="output" value="" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="passParentEnvs" value="true" />
-      <option name="program" value="gulp" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="true" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="false">
-      <option name="arguments" value="gt@develop.digicable.hu &quot;cd /var/www/gt/digionline-ionic; /usr/bin/gulp sass&quot;" />
-      <option name="checkSyntaxErrors" value="true" />
-      <option name="description" value="Compiles .scss files into .css files" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="scss" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="SCSS (ssh)" />
-      <option name="output" value="$ProjectFileDir$/www/css" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="passParentEnvs" value="true" />
-      <option name="program" value="ssh" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="false">
-      <option name="arguments" value="gt@develop.digicable.hu &quot;cd /var/www/gt/digionline-ionic; /usr/bin/gulp js&quot;" />
-      <option name="checkSyntaxErrors" value="true" />
-      <option name="description" value="Compiles ECMA6 .js files" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="js" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="JS (ssh)" />
-      <option name="output" value="$ProjectFileDir$/www/js" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="passParentEnvs" value="true" />
-      <option name="program" value="ssh" />
-      <option name="scopeName" value="ECMA6" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
       <envs />
     </TaskOptions>
   </component>

@@ -76,7 +76,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="BuiltInServerOptions" builtInServerPort="8181" builtInServerAvailableExternally="true" />
+  <component name="BuiltInServerOptions" builtInServerPort="7788" builtInServerAvailableExternally="true" />
   <component name="CodeStyleSchemes">
     <option name="CURRENT_SCHEME_NAME" value="Default" />
   </component>
@@ -90,7 +90,7 @@
     <show-plugin-conflict-dialog value="false" />
   </component>
   <component name="DependencyUISettings">
-    <option name="UI_SHOW_FILES" value="false" />
+    <option name="UI_FILTER_LEGALS" value="true" />
   </component>
   <component name="ErrorReportConfigurable">
     <option name="ITN_LOGIN" value="gtgt" />

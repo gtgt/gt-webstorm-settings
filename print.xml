@@ -1,0 +1,8 @@
+<application>
+  <component name="PrintSettings">
+    <option name="includeSubdirectories" value="true" />
+    <option name="printScope" value="4" />
+    <option name="FONT_SIZE" value="8" />
+    <option name="FOOTER_HEADER_FONT_NAME" value="DejaVu Sans Mono" />
+  </component>
+</application>
