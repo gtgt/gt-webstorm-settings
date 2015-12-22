@@ -3,18 +3,19 @@
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.bundle;.git;.hg;.svn;.tox;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
       <mapping ext="" type="HTML" />
-      <mapping ext="xcf" type="Native" />
+      <mapping pattern=".editorconfig" type="Ini" />
+      <mapping ext="info" type="Ini" />
       <mapping ext="ods" type="Native" />
-      <mapping ext="engine" type="PHP" />
-      <mapping ext="profile" type="PHP" />
-      <mapping ext="install" type="PHP" />
+      <mapping ext="xcf" type="Native" />
       <mapping ext="theme" type="PHP" />
+      <mapping ext="install" type="PHP" />
       <mapping ext="test" type="PHP" />
+      <mapping ext="profile" type="PHP" />
+      <mapping ext="engine" type="PHP" />
       <mapping ext="ser" type="PLAIN_TEXT" />
       <removed_mapping ext="htaccess" type="PLAIN_TEXT" />
-      <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="htaccess" type="htaccess" />
-      <mapping ext="info" type="Ini" />
+      <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
       <mapping ext="pks" type="DBN-PSQL" />
