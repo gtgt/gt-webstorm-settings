@@ -5,11 +5,6 @@
       <path value="Project View Popup Menu" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="PublishGroupPopupMenu" is_group="true" action_type="-1" position="25">
-      <path value="root" />
-      <path value="Editor Popup Menu" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
     <group value="VersionControlsGroup" is_group="true" action_type="-1" position="22">
       <path value="root" />
       <path value="Project View Popup Menu" />

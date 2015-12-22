@@ -8,10 +8,10 @@
       <mapping ext="ods" type="Native" />
       <mapping ext="xcf" type="Native" />
       <mapping ext="theme" type="PHP" />
-      <mapping ext="install" type="PHP" />
       <mapping ext="test" type="PHP" />
-      <mapping ext="profile" type="PHP" />
+      <mapping ext="install" type="PHP" />
       <mapping ext="engine" type="PHP" />
+      <mapping ext="profile" type="PHP" />
       <mapping ext="ser" type="PLAIN_TEXT" />
       <removed_mapping ext="htaccess" type="PLAIN_TEXT" />
       <mapping ext="htaccess" type="htaccess" />
