@@ -1,0 +1,13 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd" location="http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd" />
+  </component>
+  <component name="NativeNeighbourhoodPlugin">
+    <iconsDir value="windows" />
+    <executeWithDefaultAppCommand value="rundll32.exe url.dll,FileProtocolHandler $FilePath$" tokenizerDelims="" />
+    <showInFileManagerCommand value="explorer.exe /select,$FilePath$" tokenizerDelims="" />
+    <openCommandShellInCommand value="cmd /c &quot;$PluginsHome$\NativeNeighbourhood\classes\org\intellij\plugins\nativeNeighbourhood\icons\windows\cmd.bat&quot;" tokenizerDelims="" />
+    <selectInFileManagerName value="Windows Explorer" />
+    <nativeExtensions value="" />
+  </component>
+</application>
